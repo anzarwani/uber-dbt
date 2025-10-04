@@ -1,15 +1,11 @@
-Welcome to your new dbt project!
+# Uber Analytics - DBT Project
 
-### Using the starter project
+This is a hands-on project I did to learn dbt. 
 
-Try running the following commands:
-- dbt run
-- dbt test
+- I created a staging model (`stg_uber`) to clean and canonicalize a Kaggle ride-hailing dataset.
+- The goal was to practice dbt workflows: seeds, models, refs, and documentation.
+- Only the staging layer is built for now.
 
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+Tools used:
+- dbt
+- Postgres
